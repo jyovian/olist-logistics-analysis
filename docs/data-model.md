@@ -8,6 +8,8 @@ The datasets provided contain multiple types of information, ranging from custom
 
 The business process being modelled here is order fulfilment on the Olist marketplace, from order placement through delivery to the customer. Performance is observed as a whole instead of attributed to a single logistics operator.
 
+### 2.1. Identifying Business Process
+
 The following business queries guide the design of the warehouse:
 
 ##### 1. _"What is Olist's order fulfilment rate?"_
@@ -29,3 +31,7 @@ This query connects delivery performance with customer satisfaction. Sometimes a
 ##### 5. _"Are delivery delays concentrated among sellers in certain states or systemic across the platform?"_
 
 This query will help identify if there are delivery delays that come from certain sellers, which will help direct improvement effort. If delays are concentrated, then a targeted intervention towards the worst performers is the highest-leverage move. If it is systemic, then the platform itself needs structural change. We will use the orders and sellers datasets.
+
+### 2.2. Determining Grain
+
+The grain will be designed to represent **one order item per row**. This item-level specifity is chosen because the business queries that we have determined above require analysis at the product level, such as item delivery performance and item reviews.An order-level grain would aggregate the data too much and we will lose detail.
