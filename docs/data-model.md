@@ -40,7 +40,7 @@ The grain will be designed to represent **one order item per row**. This item-le
 
 - `dim_customer` - `customer_key`, `customer_id`, `customer_unique_id`, `customer_city`, `customer_state`
 - `dim_date` - `date_key`, `day`, `day_name`, `quarter`, `month`, `year`
-- `dim_product` - `product_key`, `product_id`, `product_category_name`, `product_weight_g`, `product_length_cm`, `product_height_cm`, `product_width_cm`, `product_category_english`
+- `dim_product` - `product_key`, `product_id`, `product_category_name`, `product_weight_g`, `product_length_cm`, `product_height_cm`, `product_width_cm`, `product_category_english`, `product_vol_cm3`
 - `dim_seller` - `seller_key`, `seller_id`, `seller_city`, `seller_state`
 
 ### 2.4. Fact Tables
