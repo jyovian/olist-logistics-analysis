@@ -4,9 +4,13 @@
 
 This
 
-## 2. The Business Questions
+## 2. The Core Business Question
 
-This project's analysis will be answering six business questions:
+This project's analysis will be focusing on the company's logistics performance.
+
+> How does the delivery performance vary across regions, sellers, and product categories? How does it impact customer satisfaction?
+
+
 
 ## 3. About the Data
 
