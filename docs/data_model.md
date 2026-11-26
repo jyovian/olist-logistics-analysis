@@ -12,9 +12,9 @@ The business process being modelled here is order fulfilment on the Olist market
 
 The following business queries guide the design of the warehouse:
 
-###### 1. _"What is Olist's order fulfilment rate?"_
+###### 1. _"How many of Olist's completed deliveries were delivered on time?"_
 
-One of the main indicators that a logistics department was doing well is by seeing their order fulfilment rate. Out of the total delivery they made, how many were on time and how many were late. We will be using the Orders dataset, which contains the estimated and actual delivery dates.
+One of the main indicators that a logistics department was doing well is by seeing how many of their completed orders were delivered on-time. Out of the total delivery they made, how many were on time and how many were late. We will be using the Orders dataset, which contains the estimated and actual delivery dates.
 
 ###### 2. _"Which state has the most and least reliable delivery?"_
 
